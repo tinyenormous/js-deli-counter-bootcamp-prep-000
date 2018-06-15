@@ -34,6 +34,7 @@ function currentLine(lineLength){
       var tempString=`${i+1}. ${lineLength[i]}, `
       printString=printString.concat(tempString)
     }
+    printString.pop()
     return printString //
     //`The line is currently: 1. Bill, 2. Jane, 3. Ann`
   }
