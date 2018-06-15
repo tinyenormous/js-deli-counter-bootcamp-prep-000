@@ -3,7 +3,7 @@ var i=0
 var returnString = ""
 function takeANumber(katzDeliLine,name) {
   // console.log(katzDeliLine) 
-  returnString = `Welcome, ${name}. You are number ${i+1} in line.`
+  returnString = `Welcome, ${name}. You are number ${katzDeliLine.length+1} in line.`
   console.log(returnString)
   katzDeliLine.push(name)
   return returnString//,katzDeli
