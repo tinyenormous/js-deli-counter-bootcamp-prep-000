@@ -6,5 +6,5 @@ function takeANumber(katzDeliLine,name) {
   returnString = `Welcome, ${name}. You are number ${i+1} in line.`
   console.log(returnString)
   katzDeli.push(name)
-  return returnString
+  return katzDeli
 }
