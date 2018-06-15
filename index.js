@@ -31,7 +31,8 @@ function currentLine(){
   else {
     printString = 'The line is currently:'
     for (i=0; i<currentLine.length; i++){
-      printString=printString.concat(`${i+1}. ${currentLine[i]})
+      var tempString=`${i+1}. ${currentLine[i]}`
+      printString=printString.concat()
     }
     return printString //
     //`The line is currently: 1. Bill, 2. Jane, 3. Ann`
