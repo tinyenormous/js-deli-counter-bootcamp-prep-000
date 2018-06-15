@@ -14,7 +14,7 @@ function nowServing(){
   if (katzDeli>0) {
   katzDeli.shift()
   
-  return `Currently serving ${katzDeli[0].`
+  return `Currently serving ${katzDeli[0]}.`
   }
   else {
   return "There is nobody waiting to be served!"  
