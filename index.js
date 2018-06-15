@@ -29,7 +29,7 @@ function currentLine(lineLength){
     return "The line is currently empty."
   }
   else {
-    printString = 'The line is currently:'
+    printString = 'The line is currently: '
     for (i=0; i<lineLength.length; i++){
       var tempString=`${i+1}. ${currentLine[i]}`
       printString=printString.concat(tempString)
