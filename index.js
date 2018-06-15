@@ -34,8 +34,8 @@ function currentLine(lineLength){
       var tempString=`${i+1}. ${lineLength[i]}, `
       printString=printString.concat(tempString)
     }
-    printString.substr(0, -1)
-    return printString //
+    var trimmed =printString.substr(0, -1)
+    return trimmed //
     //`The line is currently: 1. Bill, 2. Jane, 3. Ann`
   }
 }
