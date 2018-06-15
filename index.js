@@ -12,7 +12,7 @@ function takeANumber(katzDeliLine,name) {
 
 function nowServing(katzDeliLine){
   if (katzDeliLine.length>0) {
-  var removedName=  katzDeli[0]
+  var removedName=  katzDeliLine[0]
   katzDeliLine.shift()
   return `Currently serving ${removedName}.`
 
