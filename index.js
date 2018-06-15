@@ -24,5 +24,15 @@ function nowServing(katzDeliLine){
 }
 
 function currentLine(){
-  
+  var printString=""
+  if (currentLine.length===0){
+    return 
+  }
+  else {
+    printString = 'The line is currently:'
+    for (i=0; i<currentLine.length; i++){
+      printString=printString.concat(currentLine[i])
+    }
+    return `The line is currently: 1. Bill, 2. Jane, 3. Ann`
+  }
 }
