@@ -11,7 +11,7 @@ function takeANumber(katzDeliLine,name) {
 
 
 function nowServing(){
-  if (katzDeli>0) {
+  if (katzDeli.length>0) {
   var removedName=  katzDeli[0]
   katzDeli.shift()
   return `Currently serving ${removedName}.`
