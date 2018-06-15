@@ -31,7 +31,7 @@ function currentLine(lineLength){
   else {
     printString = 'The line is currently: '
     for (i=0; i<lineLength.length; i++){
-      var tempString=`${i+1}. ${currentLine[i]}`
+      var tempString=`${i+1}, ${currentLine[i]}`
       printString=printString.concat(tempString)
     }
     return printString //
