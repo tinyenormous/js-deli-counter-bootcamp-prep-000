@@ -11,5 +11,11 @@ function takeANumber(katzDeliLine,name) {
 
 
 function nowServing(){
-  pop
+  if (katzDeli>0) {
+  katzDeli.shift()
+  }
+  else {
+  return   
+  }
+  
 }
